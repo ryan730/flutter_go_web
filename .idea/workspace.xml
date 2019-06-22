@@ -2,255 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4650d67b-5436-4fc3-85e7-05f62bcd8224" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/flutter_go_web.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/examples/ali-flutter-go" afterPath="$PROJECT_DIR$/examples/ali-flutter-go" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/lib/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/pubspec.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/web/assets/FontManifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/web/assets/fonts/Raleway-Italic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/web/assets/fonts/Raleway-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/web/assets/fonts/RobotoMono-Bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/web/assets/fonts/RobotoMono-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/web/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/custom_fonts/web/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/build.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/all.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/animation/home.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/animation/sections.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/animation/widgets.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/animation_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/colors_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/contacts_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/backdrop_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/bottom_app_bar_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/bottom_navigation_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/cards_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/chip_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/data_table_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/date_and_time_picker_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/dialog_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/drawer_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/editable_text_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/elevation_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/expansion_panels_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/full_screen_dialog_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/grid_list_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/icons_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/leave_behind_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/list_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/material.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/material_button_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/menu_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/modal_bottom_sheet_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/overscroll_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/page_selector_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/persistent_bottom_sheet_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/progress_indicator_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/reorderable_list_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/scrollable_tabs_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/search_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/selection_controls_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/slider_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/snack_bar_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/stack_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/switch_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/tabs_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/tabs_fab_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/text_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/text_form_field_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/tooltip_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/material/two_level_list_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/pesto_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/shrine/shrine_data.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/shrine/shrine_home.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/shrine/shrine_order.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/shrine/shrine_page.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/shrine/shrine_theme.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/shrine/shrine_types.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/shrine_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/demo/typography_demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/about.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/app.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/backdrop.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/demo.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/demos.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/home.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/icons.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/options.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/scales.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/gallery/themes.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/lib/main_houdini.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/pubspec.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/test/demo/material/text_form_field_demo_test.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/test/gallery_test.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/AbrilFatface-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/FontManifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/GalleryIcons.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/GoogleSans-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/LibreFranklin-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/Merriweather-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/Raleway-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/butternut_squash_soup.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/cherry_pie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/chopped_beet_leaves.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/icons/fish.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/icons/healthy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/icons/main.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/icons/meat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/icons/quick.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/icons/spicy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/icons/veggie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/pesto_pasta.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/roasted_chicken.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/spanakopita.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/food/spinach_onion_salad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/logos/flutter_white/1.5x/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/logos/flutter_white/2.5x/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/logos/flutter_white/3.0x/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/logos/flutter_white/4.0x/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/logos/flutter_white/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/logos/paimaiLogo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/logos/pesto/logo_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/people/ali_landscape.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/people/square/ali.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/people/square/peter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/people/square/sandra.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/people/square/stella.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/people/square/trevor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_chennai_flower_market.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_chennai_highway.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_chettinad_produce.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_chettinad_silk_maker.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_pondicherry_beach.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_pondicherry_fisherman.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_pondicherry_salt_farm.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_tanjore_bronze_works.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_tanjore_market_merchant.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_tanjore_market_technology.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_tanjore_thanjavur_temple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_tanjore_thanjavur_temple_carvings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/places/india_thanjavur_market.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/backpack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/belt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/cup.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/deskset.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/dress.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/earrings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/flatwear.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/hat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/jacket.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/jumper.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/kitchen_quattro.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/napkins.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/planters.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/platter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/scarf.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/shirt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/sunnies.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/sweater.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/sweats.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/table.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/teaset.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/assets/products/top.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/houdini.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/houdini_main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/gallery/web/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/hello_world/lib/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/hello_world/pubspec.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/hello_world/web/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/hello_world/web/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/build.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/lib/app.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/lib/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/lib/main_houdini.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/pubspec.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/AbrilFatface-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/AssetManifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/FontManifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/GalleryIcons.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/GoogleSans-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/LibreFranklin-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/Merriweather-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/Raleway-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/butternut_squash_soup.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/cherry_pie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/chopped_beet_leaves.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/icons/fish.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/icons/healthy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/icons/main.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/icons/meat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/icons/quick.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/icons/spicy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/icons/veggie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/pesto_pasta.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/roasted_chicken.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/spanakopita.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/food/spinach_onion_salad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/logos/flutter_white/1.5x/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/logos/flutter_white/2.5x/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/logos/flutter_white/3.0x/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/logos/flutter_white/4.0x/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/logos/flutter_white/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/logos/paimaiLogo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/logos/pesto/logo_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/people/ali_landscape.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/people/square/ali.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/people/square/peter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/people/square/sandra.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/people/square/stella.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/people/square/trevor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_chennai_flower_market.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_chennai_highway.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_chettinad_produce.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_chettinad_silk_maker.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_pondicherry_beach.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_pondicherry_fisherman.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_pondicherry_salt_farm.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_tanjore_bronze_works.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_tanjore_market_merchant.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_tanjore_market_technology.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_tanjore_thanjavur_temple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_tanjore_thanjavur_temple_carvings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/places/india_thanjavur_market.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/backpack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/belt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/cup.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/deskset.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/dress.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/earrings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/flatwear.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/hat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/jacket.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/jumper.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/kitchen_quattro.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/napkins.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/planters.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/platter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/scarf.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/shirt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/sunnies.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/sweater.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/sweats.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/table.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/teaset.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/assets/products/top.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/houdini.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/houdini_main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/pictest/web/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/spinning_square/lib/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/spinning_square/pubspec.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/spinning_square/web/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/spinning_square/web/main.dart" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -261,11 +13,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".flutter-plugins" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ali-flutter-go/.flutter-plugins">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".packages" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ali-flutter-go/.packages">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1751">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratedPluginRegistrant.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/ali-flutter-go/ios/Runner/GeneratedPluginRegistrant.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -289,7 +71,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
+    <option name="x" value="64" />
     <option name="y" value="23" />
     <option name="width" value="1399" />
     <option name="height" value="877" />
@@ -612,7 +394,7 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="flutter_go_web" type="cbb8eebc:String" user="flutter_go_web" />
-              <item name="examples" type="cbb8eebc:String" user="examples" />
+              <item name="project" type="cbb8eebc:String" user="project" />
             </path>
           </expand>
           <select />
@@ -628,6 +410,11 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -746,8 +533,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1399" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="64" y="23" width="1399" height="877" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -756,7 +542,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -800,6 +586,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ali-flutter-go/.flutter-plugins">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ali-flutter-go/.packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1751">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/ali-flutter-go/ios/Runner/GeneratedPluginRegistrant.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
