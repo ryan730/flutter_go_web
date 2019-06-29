@@ -3,6 +3,7 @@ import 'package:flutter_go/routers/fluro/fluro.dart';
 import './widget_item.dart' show  WidgetItem;
 import '../routers/application.dart' show Application;
 import '../widgets/index.dart' show WidgetDemoList;
+import 'dart:html' as html;
 
 class WidgetItemContainer extends StatelessWidget {
   final int columnCount; //一行几个

@@ -15,6 +15,7 @@ import '../event/event_model.dart';
 import 'package:path/path.dart' as path;
 
 import 'dart:async';
+import 'dart:html' as html;
 import 'package:flutter_web/material.dart';
 import 'package:flutter_web/src/widgets/web_navigator.dart';
 import 'package:flutter_web_ui/src/engine.dart' hide MethodCall;
@@ -131,7 +132,7 @@ class _WidgetDemoState extends State<WidgetDemo> {
     }
   }
 
-  Future<void> _neverSatisfied(value) async {
+  Future<void> _neverSatisfied(widget) async {
     return showDialog<void>(
       context: _context,
       barrierDismissible: false, // user must tap button!
@@ -141,13 +142,20 @@ class _WidgetDemoState extends State<WidgetDemo> {
           content: SingleChildScrollView(
             child: ListBody(
               children: <Widget>[
-                Text(value)
+                Text('Title:\n${widget.title} \n\nWebsite:\n${widget.docUrl}')
               ],
             ),
           ),
           actions: <Widget>[
             FlatButton(
-              child: Text('confirm'),
+              child: Text('go to address'),
+              onPressed: () {
+                html.window.location.href = widget.docUrl;// 直接使用js,html
+                Navigator.of(context).pop();
+              },
+            ),
+            FlatButton(
+              child: Text('cancel'),
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -167,7 +175,9 @@ class _WidgetDemoState extends State<WidgetDemo> {
       // _launchURL(widget.docUrl);
 //      Application.router.navigateTo(context,
 //          '${Routes.webViewPage}?title=${Uri.encodeComponent(widget.title)} Doc&&url=${Uri.encodeComponent(widget.docUrl)}');
-      _neverSatisfied('Title:\n${widget.title} \n\nWebsite:\n${widget.docUrl}');
+      _neverSatisfied(widget);
+      print('window-->${window}');
+
     } else if (value == 'code') {
       Application.router.navigateTo(context,
           '${Routes.codeView}?filePath=${Uri.encodeComponent(widget.codeUrl)}');

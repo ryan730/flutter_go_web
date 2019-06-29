@@ -9,6 +9,7 @@ import 'package:flutter_web/material.dart';
 import 'package:flutter_web/rendering.dart';
 import 'package:flutter_go/utils/shared_preferences.dart';
 
+import 'package:flutter_go/views/first_page/first_page.dart' show FirstPage;
 import 'package:flutter_go/views/widget_page/widget_page.dart';
 import 'package:flutter_go/views/collection_page/collection_page.dart';
 import 'package:flutter_go/views/welcome_page/fourth_page.dart' show FourthPage;
@@ -42,7 +43,7 @@ class _MyHomePageState extends State<Home>
   List<Widget> _list = List();
   int _currentIndex = 0;
   static List tabData = [
-//    {'text': '业界动态', 'icon': Icon(Icons.language)},
+    {'text': '业界动态', 'icon': Icon(Icons.language)},
     {'text': 'WIDGET', 'icon': Icon(Icons.extension)},
     {'text': '组件收藏', 'icon': Icon(Icons.favorite)},
     {'text': '关于手册', 'icon': Icon(Icons.import_contacts)},
@@ -65,6 +66,7 @@ class _MyHomePageState extends State<Home>
     _list
 //      ..add(FirstPage())
 //      ..add(MainPage())
+      ..add(FirstPage())
       ..add(WidgetPage(null))
       ..add(CollectionPage())
       ..add(FourthPage());
@@ -128,7 +130,7 @@ class _MyHomePageState extends State<Home>
   }
 
   renderAppBar(BuildContext context, Widget widget, int index) {
-//    if (index == 0) {return null;}
+    if (index == 0) {return null;}
     return AppBar(title: buildSearchInput(context));
   }
 

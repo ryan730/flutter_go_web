@@ -4,6 +4,7 @@ import 'package:flutter_web/material.dart';
 
 import 'package:flutter_go/utils/style.dart';
 import 'package:flutter_go/resources/widget_name_to_icon.dart';
+import 'dart:html' as html;
 
 String _widgetName;
 

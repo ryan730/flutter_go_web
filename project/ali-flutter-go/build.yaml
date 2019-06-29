@@ -5,3 +5,7 @@ targets:
       build_web_compilers|entrypoint:
         # Avoid building the test directory.
         generate_for: ['web/**.dart']
+        options:
+          dart2js_args:
+            - --no-source-maps
+            - -O4
