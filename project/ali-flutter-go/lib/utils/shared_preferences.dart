@@ -56,7 +56,6 @@ class SpUtil {
 //  }
 
   getString(String key) {
-    print('--------=======${_beforeCheck()},${_spf.getString(key)}');
     if (_beforeCheck()) return null;
     return _spf.getString(key);
   }

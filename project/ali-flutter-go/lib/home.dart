@@ -130,7 +130,7 @@ class _MyHomePageState extends State<Home>
   }
 
   renderAppBar(BuildContext context, Widget widget, int index) {
-    if (index == 0) {return null;}
+    /// if (index == 0) {return null;}
     return AppBar(title: buildSearchInput(context));
   }
 

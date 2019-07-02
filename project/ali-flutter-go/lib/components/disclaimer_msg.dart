@@ -49,10 +49,6 @@ class DisclaimerMsgState extends State<DisclaimerMsg> {
 //    _unKnow = _prefs.then((SharedPreferences prefs) {
 //      return (prefs.getBool('disclaimer::Boolean') ?? false);
 //    });
-    _unKnow.then((bool value) {
-      _valBool = value;
-      _readed = value;
-    });
   }
 
   void showAlertDialog(BuildContext context) {

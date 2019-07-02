@@ -27,12 +27,16 @@ class _BannerState extends State<HomeBanner> {
   void initState() {
     super.initState();
     controller = PageController(initialPage: realIndex);
-    timer = Timer.periodic(Duration(seconds: 5), (timer) { // 自动滚动
-      /// print(realIndex);
-      controller.animateToPage(realIndex + 1,
-          duration: Duration(milliseconds: 300),
-          curve: Curves.linear);
-    });
+    // try{
+    //   timer = Timer.periodic(Duration(seconds: 5), (timer) { // 自动滚动
+    //   /// print(realIndex);
+    //   controller.animateToPage(realIndex + 1,
+    //       duration: Duration(milliseconds: 300),
+    //       curve: Curves.linear);
+    // });
+    // }catch(e){
+    //   print('home_banner_error:${e}');
+    // }
   }
 
   @override

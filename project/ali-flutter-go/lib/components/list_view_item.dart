@@ -7,6 +7,7 @@ import 'package:flutter_web/material.dart';
 import '../routers/application.dart';
 import '../routers/routers.dart';
 import 'dart:core';
+import 'dart:html' as html;
 
 
 class ListViewItem extends StatelessWidget {
@@ -27,7 +28,9 @@ class ListViewItem extends StatelessWidget {
       child: ListTile(
         onTap: () {
           // _launchURL(itemUrl, context);
-          Application.router.navigateTo(context, '${Routes.webViewPage}?title=${Uri.encodeComponent(itemTitle)}&url=${Uri.encodeComponent(itemUrl)}');
+          //Application.router.navigateTo(context, '${Routes.webViewPage}?title=${Uri.encodeComponent(itemTitle)}&url=${Uri.encodeComponent(itemUrl)}');
+          print('跳转到页面->${Routes.webViewPage}');
+          html.window.open(itemUrl,'newwindow','height=667,width=375,scrollbars=yes,status=yes');
         },
         title: Padding(
           child: Text(

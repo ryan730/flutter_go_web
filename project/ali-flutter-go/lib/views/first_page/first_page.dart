@@ -8,7 +8,7 @@ import 'package:flutter_go/components/list_refresh.dart' as listComp;
 import 'package:flutter_go/components/pagination.dart';
 import 'package:flutter_go/views/first_page/first_page_item.dart';
 import 'package:flutter_go/components/disclaimer_msg.dart';
-/// import 'package:flutter_go/utils/net_utils.dart';
+import 'package:flutter_go/utils/net_utils.dart';
 
 // ValueKey<String> key;
 class FirstPage1 extends StatefulWidget {
@@ -87,23 +87,26 @@ class FirstPageState extends State<FirstPage> with AutomaticKeepAliveClientMixin
 
 
   Future<Map> getIndexListData([Map<String, dynamic> params]) async {
-    const juejin_flutter = 'https://timeline-merger-ms.juejin.im/v1/get_tag_entry?src=web&tagId=5a96291f6fb9a0535b535438';
+    ///const juejin_flutter = 'https://timeline-merger-ms.juejin.im/v1/get_tag_entry?src=web&tagId=5a96291f6fb9a0535b535438';
+    const juejin_flutter = 'http://127.0.0.1:3000/juejin.im/v1/get_tag_entry?src=web&tagId=5a96291f6fb9a0535b535438';
+    
     var pageIndex = (params is Map) ? params['pageIndex'] : 0;
     final _param  = {'page':pageIndex,'pageSize':20,'sort':'rankIndex'};
     var responseList = [];
     var  pageTotal = 0;
-
-//    try{
-//      var response = await NetUtils.get(juejin_flutter, _param);
-//      responseList = response['d']['entrylist'];
-//      pageTotal = response['d']['total'];
-//      if (!(pageTotal is int) || pageTotal <= 0) {
-//        pageTotal = 0;
-//      }
-//    }catch(e){
-//      //throw(e);
-//      print('first_page_error:${e}');
-//    }
+    
+   try{
+      var response = await NetUtils.get(juejin_flutter, _param);
+     print(response['d']['total']);
+     responseList = response['d']['entrylist'];
+     pageTotal = response['d']['total'] as int;
+     if (!(pageTotal is int) || pageTotal <= 0) {
+       pageTotal = 0;
+     }
+   }catch(e){
+      throw(e);
+     //print('first_page_error:${e}');
+   }
 
     pageIndex += 1;
     List resultList = new List();
@@ -153,17 +156,17 @@ class FirstPageState extends State<FirstPage> with AutomaticKeepAliveClientMixin
     /// super.build(context);
     return new Column(
         children: <Widget>[
-          new Stack(
-            //alignment: const FractionalOffset(0.9, 0.1),//方法一
-            children: <Widget>[
-            Pagination(),
-//            Positioned(//方法二
-//              top: 10.0,
-//              left: 0.0,
-//              child: DisclaimerMsg(key:key,pWidget:this)
-//            ),
-          ]),
-          SizedBox(height: 2, child:Container(color: Theme.of(context).primaryColor)),
+          // new Stack(
+          //   //alignment: const FractionalOffset(0.9, 0.1),//方法一
+          //   children: <Widget>[
+          //   Pagination(),
+          //   Positioned(//方法二
+          //     top: 10.0,
+          //     left: 0.0,
+          //     child: DisclaimerMsg(key:key,pWidget:this)
+          //   ),
+          // ]),
+          // SizedBox(height: 2, child:Container(color: Theme.of(context).primaryColor)),
           new Expanded(
             //child: new List(),
               child: listComp.ListRefresh(getIndexListData,makeCard,headerView)

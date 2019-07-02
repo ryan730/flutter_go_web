@@ -150,7 +150,7 @@ class _WidgetDemoState extends State<WidgetDemo> {
             FlatButton(
               child: Text('go to address'),
               onPressed: () {
-                html.window.location.href = widget.docUrl;// 直接使用js,html
+                html.window.open(widget.docUrl,'newwindow','height=667,width=375,scrollbars=yes,status=yes');// 直接使用js,html
                 Navigator.of(context).pop();
               },
             ),
