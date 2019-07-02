@@ -71,3 +71,5 @@ $ webdev build
             - --no-source-maps 
             - -O4
 注意：该-O4选项启用了许多高级优化，这些优化可能会导致未经过全面测试的代码中的运行时错误。
+
+uglifyjs project/ali-flutter-go/build/main.dart.js -o project/ali-flutter-go/build/main.dart.js
