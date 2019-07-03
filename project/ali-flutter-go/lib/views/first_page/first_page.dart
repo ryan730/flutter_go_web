@@ -89,7 +89,7 @@ class FirstPageState extends State<FirstPage> with AutomaticKeepAliveClientMixin
   Future<Map> getIndexListData([Map<String, dynamic> params]) async {
     ///const juejin_flutter = 'https://timeline-merger-ms.juejin.im/v1/get_tag_entry?src=web&tagId=5a96291f6fb9a0535b535438';
     ////const juejin_flutter = 'http://127.0.0.1:3000/juejin.im/v1/get_tag_entry?src=web&tagId=5a96291f6fb9a0535b535438';
-    const juejin_flutter = 'http://106.12.54.248:3000/juejin.im/v1/get_tag_entry?src=web&tagId=5a96291f6fb9a0535b535438';
+    const juejin_flutter = 'https://106.12.54.248:9527/juejin.im/v1/get_tag_entry?src=web&tagId=5a96291f6fb9a0535b535438';
     
     var pageIndex = (params is Map) ? params['pageIndex'] : 0;
     final _param  = {'page':pageIndex,'pageSize':20,'sort':'rankIndex'};
