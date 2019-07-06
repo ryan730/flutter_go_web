@@ -2,7 +2,7 @@
 import 'fluro/fluro.dart';
 import 'package:flutter_web/material.dart';
 
-import '../widgets/index.dart' show WidgetDemoList;
+///// import '../widgets/index.dart' show WidgetDemoList;
 import './router_handler.dart' show homeHandler,categoryHandler,widgetNotFoundHandler,fullScreenCodeDialog,webViewPageHand;
 
 class Routes {
@@ -13,7 +13,8 @@ class Routes {
   static String webViewPage = '/web-view-page';
 
   static void configureRoutes(Router router) {
-    List widgetDemosList = new WidgetDemoList().getDemos();
+    ///// List widgetDemosList = new WidgetDemoList().getDemos();
+    List widgetDemosList = [];
     router.notFoundHandler = new Handler(
         handlerFunc: (BuildContext context, Map<String, List<String>> params) {
         });
