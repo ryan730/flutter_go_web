@@ -6,10 +6,11 @@ targets:
         # Avoid building the test directory.
         generate_for: ['web/**.dart']
         options:
+          compiler: dart2js
           dart2js_args:
             - --no-source-maps
             - -O4
-            - --fast-startup
-            - --minify
-            - --trust-primitives
-            - --trust-type-annotations
+           #- --fast-startup
+           #- --minify
+           #- --trust-primitives
+           #- --trust-type-annotations
