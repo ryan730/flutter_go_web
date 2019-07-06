@@ -5,7 +5,7 @@ import 'package:flutter_web/material.dart';
 import '../routers/application.dart';
 import '../model/cat.dart';
 import '../model/widget.dart' show WidgetControlModel,WidgetPoint;
-///// import '../widgets/index.dart' show WidgetDemoList;
+import '../widgets/index.dart' show WidgetDemoList;
 import '../components/widget_item_container.dart' show WidgetItemContainer;
 
 enum CateOrWigdet { Cat, WidgetDemo }
@@ -28,8 +28,7 @@ class _CategoryHome extends State<CategoryHome> {
   CatControlModel catControl = new CatControlModel();
   WidgetControlModel widgetControl = new WidgetControlModel();
   // 所有的可用demos;
-  //// List widgetDemosList = new WidgetDemoList().getDemos();
-  List widgetDemosList = [];
+  List widgetDemosList = new WidgetDemoList().getDemos();
 
   @override
   void initState() {
