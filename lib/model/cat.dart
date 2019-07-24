@@ -112,6 +112,7 @@ class CatControlModel{
     if (json.isEmpty) {
       return null;
     }
+    print('getCatByName:::${new Cat.fromJSON(json.first)},${json.isEmpty},${name}');
     return new Cat.fromJSON(json.first);
   }
 

@@ -4,6 +4,7 @@
 
 import 'package:flutter_web/material.dart';
 import 'package:flutter_go/app.dart';
+import 'package:flutter_go/newApp.dart';
 
 import 'package:flutter_go/routers/fluro/fluro.dart';
 import 'package:flutter_go/routers/routers.dart';
@@ -14,5 +15,6 @@ void main() {
   Routes.configureRoutes(router);
   Application.router = router;
 
-  runApp(App());
+  /// runApp(App());
+  runApp(MyApp());
 }

@@ -47,6 +47,11 @@ class SecondPageState extends State<WidgetPage> with AutomaticKeepAliveClientMix
       }
     });
   }
+  
+  // 获取一层目录下的二级对象
+  List<Cat> categorieList() {
+    return categories;
+  }
 
   Widget buildGrid() {
     // 存放最后的widget

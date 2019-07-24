@@ -1919,8 +1919,9 @@ List<Map> getCatMock(Map conditions) {
       }
     });
   }
-  print('resultList====>');
-  print(resultList.length> 0);
+  ///print('resultList====>');
+  ///print(resultList.length> 0);
+  ///print('getCatByName----------getCatByName:${conditions},${resultList.length}');
   return resultList.length > 0 ? resultList.toList() : new List<Map>();
 }
 

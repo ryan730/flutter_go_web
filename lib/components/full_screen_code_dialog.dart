@@ -1,5 +1,5 @@
-/// @Author: 一凨 
-/// @Date: 2019-01-14 11:42:32 
+/// @Author: 一凨
+/// @Date: 2019-01-14 11:42:32
 /// @Last Modified by: 一凨
 /// @Last Modified time: 2019-01-14 14:42:00
 
@@ -21,14 +21,15 @@ class _FullScreenCodeDialogState extends State<FullScreenCodeDialog> {
   @override
   void didChangeDependencies() {
     print('widget.filePath=======${widget.filePath}');
-    getExampleCode(context,'${widget.filePath}', DefaultAssetBundle.of(context))
-      .then<void>((String code) {
-        if (mounted) {
-          print('_exampleCode=======${_exampleCode}');
-          setState(() {
-            _exampleCode = code ?? 'Example code not found';
-          });
-        }
+    getExampleCode(
+            context, '${widget.filePath}', DefaultAssetBundle.of(context))
+        .then<void>((String code) {
+      if (mounted) {
+        print('_exampleCode=======${_exampleCode}');
+        setState(() {
+          _exampleCode = code ?? 'Example code not found';
+        });
+      }
     });
     super.didChangeDependencies();
   }
@@ -45,22 +46,29 @@ class _FullScreenCodeDialogState extends State<FullScreenCodeDialog> {
       body = const Center(child: CircularProgressIndicator());
     } else {
       Widget _codeWidget;
-      try{
+      try {
         DartSyntaxHighlighter(style).format(_exampleCode);
         _codeWidget = RichText(
           text: TextSpan(
-                style: const TextStyle(fontFamily: 'monospace', fontSize: 10.0),
-                children: <TextSpan>[
-                  DartSyntaxHighlighter(style).format(_exampleCode)
-                ],),
+            style: const TextStyle(fontFamily: 'monospace', fontSize: 10.0),
+            children: <TextSpan>[
+              DartSyntaxHighlighter(style).format(_exampleCode)
+            ],
+          ),
         );
-      }catch (err){
+      } catch (err) {
         _codeWidget = Text(_exampleCode);
       }
+
+      // TextEditingController controller = TextEditingController();
+      // controller.addListener(() {});
+      // controller.text = _exampleCode;
+
       body = SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: _codeWidget,
+          /// child: TextField(controller:controller),
         ),
       );
     }

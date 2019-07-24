@@ -6,7 +6,6 @@ class WidgetDemoList {
   WidgetDemoList();
 
   List getDemos() {
-    print('WidgetDemoList-getDemos');
     List result = [];
     result.addAll(elements.getWidgets());
     result.addAll(components.getWidgets());

@@ -1,4 +1,5 @@
 import 'package:flutter_web/material.dart';
+import 'dart:html' as html;
 
 import '../../routers/application.dart';
 import '../../routers/routers.dart';
@@ -51,8 +52,9 @@ class Page extends StatelessWidget {
               ..putBool(SharedPreferencesKeys.showWelcome, false);
             _goHomePage(context);
           } else if (type == 'goGithub') {
-            Application.router.navigateTo(context,
-                '${Routes.webViewPage}?title=${Uri.encodeComponent(txt)} Doc&&url=${Uri.encodeComponent("https://github.com/alibaba/flutter-go")}');
+            // Application.router.navigateTo(context,
+            //     '${Routes.webViewPage}?title=${Uri.encodeComponent(txt)} Doc&&url=${Uri.encodeComponent("https://github.com/alibaba/flutter-go")}');
+             html.window.open('https://github.com/alibaba/flutter-go','newwindow','scrollbars=yes,status=yes');
           }
         },
         elevation: 10.0,

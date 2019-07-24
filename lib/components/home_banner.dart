@@ -43,7 +43,7 @@ class _BannerState extends State<HomeBanner> {
   void dispose() {
     super.dispose();
     controller.dispose();
-    timer.cancel();
+    /// timer.cancel();
   }
 
   /// pagination 的计数器
